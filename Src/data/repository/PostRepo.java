@@ -11,5 +11,5 @@ public interface PostRepo {
     Post save(Post post);
     void deleteAll();
     void deleteById();
-    long count();
+    int count();
 }
